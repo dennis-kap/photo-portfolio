@@ -71,11 +71,11 @@ img {
 }
 
 
-/* Hovering over an image will make it darker and display it's caption */
-.grid-item:hover img{
+/* Hovering or pressing on (touchscreen) an image will make it darker and display it's caption */
+.grid-item:hover img, .grid-item:active img{
     filter: brightness(50%);
 }
 
-.grid-item:hover .grid-caption {
+.grid-item:hover .grid-caption, .grid-item:active .grid-caption {
     display: block;
 }
