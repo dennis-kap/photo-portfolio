@@ -12,120 +12,136 @@
   </head>
 
   <body>
+
+    <!-- Banner -->
     <div class="banner" id="top">
         <h1 class="brand">Photo Portfolio</h1>
-        <!-- Navigation bar -->
+        <!-- Navigation bar (expanded to be inline) -->
         <nav class="navbar navbar-expand">
-        <div class="container-fluid">
-        
-            <div class="justify-content-md-center" id="navbarLinks">
-            <ul class="navbar-nav">
-
-                <li class="nav-item">
-                <a class="nav-link" href="#Wildlife">Wildlife</a>
-                </li>          
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#Landscapes">Landscapes</a>
-                </li>    
+            <!-- Fluid container to fill full width -->
+            <div class="container-fluid">
             
-            </ul>
+                <!-- Container for centered navigation links -->
+                <div id="navbarLinks">
+                    <ul class="navbar-nav">
+
+                        <!-- Navigation links in list (ability to add more) -->
+                        <li class="nav-item">
+                        <a class="nav-link" href="#Wildlife">Wildlife</a>
+                        </li>          
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Landscapes">Landscapes</a>
+                        </li>    
+                    
+                    </ul>
+                </div>
             </div>
-        </div>
         </nav>
     </div>
 
-    <h2 id="Wildlife">Wildlife</h2>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6 grid-item">
-                <figure>
-                    <img src="Images/spider.jpg">
-                    <figcaption class="grid-caption">Jumping Spider</figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 grid-item">
-                <figure>
-                    <img src="Images/blue_jay.jpg">
-                    <figcaption class="grid-caption">Blue Jay</figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 grid-item">
-                <figure>
-                    <img src="Images/plover.jpg">
-                    <figcaption class="grid-caption">Plover</figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 grid-item">
-                <figure>
-                    <img src="Images/beaver.jpg">
-                    <figcaption class="grid-caption">Beaver</figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 grid-item">
-                <figure>
-                    <img src="Images/hummingbird.jpg">
-                    <figcaption class="grid-caption">Hummingbird</figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 grid-item">
-                <figure>
-                    <img src="Images/barred_owl.jpg">
-                    <figcaption class="grid-caption">Barred Owl</figcaption>
-                </figure>
+    <!-- Wildlife section -->
+    <section id="wild">
+        <h2 id="Wildlife">Wildlife</h2>
+
+        <!-- Fluid container with a single row for responsiveness -->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Each element has width of 4 (3 items) on lg and 6 (2 items) for lower sizes -->
+                <div class="col-lg-4 col-6 grid-item">
+                    <figure>
+                        <img src="Images/spider.jpg">
+                        <figcaption class="grid-caption">Jumping Spider</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-6 grid-item">
+                    <figure>
+                        <img src="Images/blue_jay.jpg">
+                        <figcaption class="grid-caption">Blue Jay</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-6 grid-item">
+                    <figure>
+                        <img src="Images/plover.jpg">
+                        <figcaption class="grid-caption">Plover</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-6 grid-item">
+                    <figure>
+                        <img src="Images/beaver.jpg">
+                        <figcaption class="grid-caption">Beaver</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-6 grid-item">
+                    <figure>
+                        <img src="Images/hummingbird.jpg">
+                        <figcaption class="grid-caption">Hummingbird</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-6 grid-item">
+                    <figure>
+                        <img src="Images/barred_owl.jpg">
+                        <figcaption class="grid-caption">Barred Owl</figcaption>
+                    </figure>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <h2 id="Landscapes">Landscapes</h2>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6 grid-item">
-                <figure>
-                    <img src="Images/du_bic.jpg">
-                    <figcaption class="grid-caption">Du Biq</figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 grid-item">
-                <figure>
-                    <img src="Images/algonquin.jpg">
-                    <figcaption class="grid-caption">Algonquin</figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 grid-item">
-                <figure>
-                    <img src="Images/shore.jpg">
-                    <figcaption class="grid-caption">Shore</figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 grid-item">
-                <figure>
-                    <img src="Images/cape_breton.jpg">
-                    <figcaption class="grid-caption">Cape Breton</figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 grid-item">
-                <figure>
-                    <img src="Images/sunset.jpg">
-                    <figcaption class="grid-caption">Sunset</figcaption>
-                </figure>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 grid-item">
-                <figure>
-                    <img src="Images/overhead_shore.jpg">
-                    <figcaption class="grid-caption">Island Shore</figcaption>
-                </figure>
+    <!-- Landscape section -->
+    <section id="land">
+        <h2 id="Landscapes">Landscapes</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-6 grid-item">
+                    <figure>
+                        <img src="Images/du_bic.jpg">
+                        <figcaption class="grid-caption">Du Biq</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-6 grid-item">
+                    <figure>
+                        <img src="Images/algonquin.jpg">
+                        <figcaption class="grid-caption">Algonquin</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-6 grid-item">
+                    <figure>
+                        <img src="Images/shore.jpg">
+                        <figcaption class="grid-caption">Shore</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-6 grid-item">
+                    <figure>
+                        <img src="Images/cape_breton.jpg">
+                        <figcaption class="grid-caption">Cape Breton</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-6 grid-item">
+                    <figure>
+                        <img src="Images/sunset.jpg">
+                        <figcaption class="grid-caption">Sunset</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-6 grid-item">
+                    <figure>
+                        <img src="Images/overhead_shore.jpg">
+                        <figcaption class="grid-caption">Island Shore</figcaption>
+                    </figure>
+                </div>
             </div>
         </div>
-    </div>
-
+    </section>
 
 
     <!-- BOOTSTRAP JS BUNDLE -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
+
+  <!-- Footer link that brings user to top -->
   <footer>
-    <a id="returnTop" href="#top">Top</a>
+    <a class="nav-link" href="#top">Top</a>
   </footer>
 
 </html>
