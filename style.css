@@ -1,26 +1,25 @@
+
+/* Centered elements and background colour */
 body {
     text-align: center;
     background-color: rgb(34, 34, 34);
 }
 
+/* Banner background set */
 .banner {
     background-image: url("Images/shore_banner.jpg");
     background-size: cover;
     height: 20vh;
 }
 
+/* Page header shifted down and size set */
 .brand {
     transform: translateY(50%);
     color: azure;
     font-size: 2.4em;
 }
 
-.navbar-toggler {
-    background-color: black;
-    text-align: right;
-    color: blue;
-}
-
+/* Category headers styled */
 h2 {
     margin-top: 1%;
     font-size:3em;
@@ -28,20 +27,24 @@ h2 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.nav-link {color: whitesmoke;}
+/* Link colours and padding set (hover and normal) */
+.nav-link {
+    color: whitesmoke;
+    padding-bottom: 2%;
+}
 .nav-link:hover {color: grey;}
 
-.nav-item {display: inline;}
-
+/* Centered navigation links */
 #navbarLinks {
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Creating centered caption that is normally hidden */
 .grid-caption {
     position: absolute;
     text-align: center;
-    font-size: 2em;
+    font-size: 3vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     display: none;
@@ -52,12 +55,15 @@ h2 {
     right: 0;
 }
 
+/* Making figures relative to container to put captions on corresponding image */
 figure {position: relative;}
 
+/* Assigning padding and margin for each figure element */
 .grid-item {
     padding: 0;
     margin: 0;}
 
+/* Setting image size and margins */
 img {
     width: 90%;
     margin-top: 2%;
@@ -65,16 +71,11 @@ img {
 }
 
 
+/* Hovering over an image will make it darker and display it's caption */
 .grid-item:hover img{
     filter: brightness(50%);
 }
 
 .grid-item:hover .grid-caption {
     display: block;
-}
-
-#returnTop {
-    text-decoration: none;
-    color: white;
-    padding-bottom: 1%;
 }
